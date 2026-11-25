@@ -1,0 +1,25 @@
+# Never commit BMW / Bosch / ZF / Alpina files or flash reads
+*.bin
+*.prg
+*.PRG
+*.ipo
+*.IPO
+*.0PA
+*.0pa
+*.0DA
+*.0da
+*.DAT
+*.HIS
+*.HWH
+*.ATS
+gs86_compare.json
+*.csv
+
+# build / working output
+dist/
+work/
+__pycache__/
+*.pyc
+*.log
+ram_baseline.bin
+port_context_report.json
